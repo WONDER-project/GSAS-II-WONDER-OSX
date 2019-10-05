@@ -1,2 +1,2 @@
-# GSASII-WONDER
-GSASII Distribution for WONDER
+# GSAS-II-WONDER-OSX
+GSAS-II Distribution for WONDER on OSX
