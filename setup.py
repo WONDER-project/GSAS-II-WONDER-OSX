@@ -10,7 +10,7 @@ with io.open('about.md', 'r', encoding='utf-8') as f:
 
 MAJOR = 1
 MINOR = 0
-MICRO = 2
+MICRO = 3
 VERSION = '%d.%d.%d' % (MAJOR, MINOR, MICRO)
 
 AUTHOR = 'Luca Rebuffi, Paolo Scardi, Alberto Flor'
@@ -37,7 +37,7 @@ KEYWORDS = [
 PACKAGES = find_packages()
 
 PACKAGE_DATA = {
-    'GSAS-II-WONDER'        : ['bin/*.*', 'bindist/*.*'],
+    'GSAS-II-WONDER'        : ['*.dat', 'bin/*.*', 'bindist/*.*'],
 }
 
 INSTALL_REQUIRES = sorted(set(
